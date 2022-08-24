@@ -17,7 +17,7 @@ im = Image.open(filename)
 #Split the path, only using the final two indexes (folder/filename.png)
 filename = filename.split("/")
 
-#If you need to go add an additional folder, simple add "{filename[-3]}/" at the start of the f-string. Repeat with additional indexes if necessary
+#If you need to go add an additional folder, simply add "{filename[-3]}/" at the start of the f-string. Repeat with additional indexes if necessary
 string = f"{filename[-2]}/{filename[-1]}"
 
 #Assess width and height
